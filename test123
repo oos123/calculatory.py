@@ -1,1 +1,20 @@
-123
+# salary calculation including overtime example test
+
+salaryHour = input("Enter Hours: ")
+salaryRate = input("Enter Rate: ")
+try:
+    hourFloat = float(salaryHour)
+    rateFloat = float(salaryRate)
+except:
+        print("Error, please enter numeric value")
+
+print(salaryHour,salaryRate)
+if hourFloat > 40 :
+    salary = hourFloat * rateFloat
+    overtimepay = (hourFloat - 40.0) * (rateFloat * 0.5)
+    xp = salary + overtimepay
+else:
+    xp = hourFloat * rateFloat
+print("Pay", xp)
+
+#much money
