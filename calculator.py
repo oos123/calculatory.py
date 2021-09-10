@@ -6,7 +6,7 @@ try:
     hourFloat = float(salaryHour)
     rateFloat = float(salaryRate)
 except:
-        print("Error, please enter numeric value")
+    print("Error, please enter numeric value")
 
 print(salaryHour,salaryRate)
 if hourFloat > 40 :
