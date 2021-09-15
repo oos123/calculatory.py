@@ -1,0 +1,11 @@
+n = float(input("Enter any number: "))
+
+while n > 4 :
+    print("Larger")
+    n = n - 1
+while n == 4 :
+    print("Equal")
+    n = n - 1
+if n < 4 :
+    print("Smaller")
+    n = n - 1
